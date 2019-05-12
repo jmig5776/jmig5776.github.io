@@ -1,21 +1,47 @@
-# Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
+# Site settings
+title: JMIG5776
+name: Jogi Miglani
+tagline: 'Fitness Freak'
+subtitle: Breaking to blogging life
+email: jmig5776@gmail.com
+description: >
+  Fitness Freak and IITian from Punjab sorting up his messed up life.
+baseurl: ""
+url: "https://jmig5776.github.io/"
+github_username:  jmig5776
+disqus_baseurl: "https://jmig5776.github.io/"
+disqus_shortname: https-jmig5776-github-io
+permalink: :title
 
-# Setup
-title:               Lanyon
-tagline:             'A Jekyll theme'
-description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:                 https://jmig5776.github.io
-baseurl:             ''
-paginate:            5
+excerpt_seperator: <!-break->
+
+
+# Build settings
+markdown: kramdown
+paginate: 5
+paginate_path: "/page:num/"
+inter_post_navigation: true
+version: 1.0.1
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      author: "Jogi Miglani"
+
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:             Jogi Miglani
+  github:           jmig5776
+  email:            jmig5776@gmail.com
+  linkedin:         Jogi Miglani
+  
 
-# Custom vars
-version:             1.0.0
+# External gems
+gems:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+  - jekyll-seo-tag
