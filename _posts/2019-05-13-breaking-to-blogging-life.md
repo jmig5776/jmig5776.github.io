@@ -1,5 +1,4 @@
 ---
----
 layout: post
 title: Breaking to blogging life
 comments: true
