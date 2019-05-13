@@ -29,6 +29,7 @@ defaults:
       path: ""
     values:
       author: "Jogi Miglani"
+    gravatar_md5:  698c02e024b7ac507f34a21148eedb9a
 
 
 # About/contact
@@ -37,7 +38,7 @@ author:
   github:           jmig5776
   email:            jmig5776@gmail.com
   linkedin:         Jogi Miglani
-  
+
 
 # External gems
 gems:
