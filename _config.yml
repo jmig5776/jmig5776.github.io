@@ -39,8 +39,8 @@ author:
   linkedin:         Jogi Miglani
   gravatar_md5:  698c02e024b7ac507f34a21148eedb9a
 
-# External gems
-gems:
+# External plugins
+plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jemoji
